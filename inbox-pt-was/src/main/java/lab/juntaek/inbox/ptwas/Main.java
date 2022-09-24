@@ -1,4 +1,4 @@
-package lab.juntaek;
+package lab.juntaek.inbox.ptwas;
 
 public class Main {
 

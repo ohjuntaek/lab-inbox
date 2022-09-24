@@ -4,7 +4,7 @@ plugins {
     id 'java'
 }
 
-group = 'lab.juntaek'
+group = 'lab.juntaek.inbox.ptwas'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
