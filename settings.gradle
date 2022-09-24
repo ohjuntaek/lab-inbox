@@ -1,2 +1,3 @@
 rootProject.name = 'lab-inbox'
+include 'inbox-pt-was'
 
