@@ -1,2 +1,4 @@
 rootProject.name = 'lab-inbox'
+include 'inbox-pt-was'
+include 'inbox-domain'
 
