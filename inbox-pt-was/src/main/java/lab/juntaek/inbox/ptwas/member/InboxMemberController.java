@@ -1,6 +1,6 @@
 package lab.juntaek.inbox.ptwas.member;
 
-import lab.juntaek.inbox.ptwas.inbox.domain.member.InboxMember;
+import lab.juntaek.inbox.ptwas.inbox.domain.user.InboxMember;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package lab.juntaek.inbox.ptwas.inbox.domain.member;
+package lab.juntaek.inbox.ptwas.inbox.domain.user;
 
 public class InboxMember {
 
