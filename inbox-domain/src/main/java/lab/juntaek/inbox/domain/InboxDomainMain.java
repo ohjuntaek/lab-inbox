@@ -1,4 +1,4 @@
-package lab.juntaek.inbox.ptwas.inbox.domain;
+package lab.juntaek.inbox.domain;
 
 public class InboxDomainMain {
 
