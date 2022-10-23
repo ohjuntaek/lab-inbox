@@ -1,14 +1,14 @@
 package lab.juntaek.inbox.domain.user.userlevelcondition;
 
 import java.util.List;
-import lombok.EqualsAndHashCode;
+import lab.juntaek.inbox.domain.ValueObject;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 
 @Getter
-@RequiredArgsConstructor
-@EqualsAndHashCode(of = {"id"})
-public class UserConditions {
-	private final String id;
+public class UserConditions extends ValueObject {
 	private final List<UserCondition> userConditions;
+
+	public UserConditions(List<UserCondition> userConditions) {
+		this.userConditions = userConditions;
+	}
 }

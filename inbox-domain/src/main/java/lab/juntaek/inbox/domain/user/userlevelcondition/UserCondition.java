@@ -1,11 +1,20 @@
 package lab.juntaek.inbox.domain.user.userlevelcondition;
 
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
+import lab.juntaek.inbox.domain.Entity;
+import lab.juntaek.inbox.domain.NaturalId;
+import lombok.Getter;
 
-@AllArgsConstructor
-@EqualsAndHashCode(of = {"id"})
-public class UserCondition {
-	private final String id;
+@Getter
+public class UserCondition extends Entity {
+
+	@NaturalId
+	private final String code;
+
 	private final String name;
+
+	public UserCondition(Long id, String code, String name) {
+		super(id);
+		this.code = code;
+		this.name = name;
+	}
 }

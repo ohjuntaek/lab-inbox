@@ -7,17 +7,16 @@ import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
-public enum UserConditionsData {
-	A(new UserConditions("A", List.of(
+public enum UserConditionsData { // 조합으로 잘~
+	A(new UserConditions(List.of(
 			UserConditionData.A.getUserCondition()
 	))),
-	B(new UserConditions("B", List.of(
+	B(new UserConditions(List.of(
 			UserConditionData.B.getUserCondition()
 	))),
-	C(new UserConditions("C", List.of(
+	C(new UserConditions(List.of(
 			UserConditionData.C.getUserCondition()
 	)))
-	// TODO 흠 콤비네이션으로 어떻게 잘 만들지??
 	;
 	private final UserConditions userConditions;
 }
